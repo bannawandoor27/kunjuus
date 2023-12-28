@@ -6,6 +6,7 @@ import './Skills.css'
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { skillsData } from '../../data/skillsData'
 import { skillsImage } from '../../utils/skillsImage'
+import { Height } from '@material-ui/icons';
 
 function Skills() {
 
@@ -34,7 +35,7 @@ function Skills() {
                     >
                         {skillsData.map((skill, id) => (
                             <div className="skill--box" key={id} style={skillBoxStyle}>
-                                <img src={skillsImage(skill)} alt={skill} />
+                               <img src={skillsImage(skill)} alt={skill}  style={{ height: '3.5rem', width: '4.5rem' }} />
                                 <h3 style={{color: theme.tertiary}}>
                                     {skill}
                                 </h3>

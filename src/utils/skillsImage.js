@@ -80,6 +80,7 @@ import msWord from '../assets/png/logos/Microsoft-Word-Logo.png'
 import powerPoint from '../assets/png/logos/powerpoint.png'
 import scifinder from '../assets/png/logos/SciFinder.png'
 import novalab from '../assets/png/logos/novalab.png'
+import origin from '../assets/png/logos/origin.png'
 
 import canva from '../assets/svg/skills/canva.svg'
 

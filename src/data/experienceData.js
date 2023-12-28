@@ -1,23 +1,24 @@
 export const experienceData = [
     {
-        id: 1,
-        company: 'Globex Corporation',
-        jobtitle: 'Frontend Developer',
-        startYear: '2018',
-        endYear: '2019'
+        id: 2,
+        company: 'DGM MES College, Mampad',
+        jobtitle: 'Rubber Processing & Testing Trainee',
+        startYear: '2021',
+        endYear: '2021'
     },
     {
-        id: 2,
-        company: 'Vehement Capital Partners',
-        jobtitle: 'Backend Developer',
+        id: 1,
+        company: 'DGM MES College, Mampad',
+        jobtitle: 'Graduate Researcher',
         startYear: '2019',
-        endYear: '2020'
+        endYear: '2022'
     },
+
     {
         id: 3,
-        company: 'Wonka Industries',
-        jobtitle: 'Marketing',
-        startYear: '2020',
+        company: 'Energy Materials and Device Lab, IITH',
+        jobtitle: 'Graduate Researcher',
+        startYear: '2022',
         endYear: 'Present'
     },
 ]
