@@ -73,6 +73,14 @@ import sketch from '../assets/svg/skills/sketch.svg'
 import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 
+import chemDraw from '../assets/png/logos/chemdraw.png'
+import excel from '../assets/png/logos/excel.jpeg'
+import latex from '../assets/png/logos/latex-logo-png-transparent.png'
+import msWord from '../assets/png/logos/Microsoft-Word-Logo.png'
+import powerPoint from '../assets/png/logos/powerpoint.png'
+import scifinder from '../assets/png/logos/SciFinder.png'
+import novalab from '../assets/png/logos/novalab.png'
+
 import canva from '../assets/svg/skills/canva.svg'
 
 
@@ -227,6 +235,26 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+
+
+        case 'latex':
+            return latex; // assuming the variable name for the LaTeX image is 'latex'
+        case 'ms word':
+            return msWord; // assuming the variable name for the MS Word image is 'msWord'
+        case 'powerpoint':
+            return powerPoint; // assuming the variable name for the PowerPoint image is 'powerPoint'
+        case 'excel':
+            return excel; // assuming the variable name for the Excel image is 'excel'
+        case 'origin':
+            return origin; // assuming the variable name for the Origin image is 'origin'
+        case 'chemdraw':
+            return chemDraw; // assuming the variable name for the ChemDraw image is 'chemDraw'
+        case 'scifinder':
+            return scifinder;
+        case 'novalab':
+            return novalab;
+
+
         default:
             break;
     }
