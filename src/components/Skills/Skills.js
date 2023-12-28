@@ -6,7 +6,6 @@ import './Skills.css'
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { skillsData } from '../../data/skillsData'
 import { skillsImage } from '../../utils/skillsImage'
-import { Height } from '@material-ui/icons';
 
 function Skills() {
 
