@@ -1,0 +1,270 @@
+.
+├── dir.txt
+├── LICENSE
+├── package.json
+├── package-lock.json
+├── public
+│   ├── favicon512.png
+│   ├── favicon.ico
+│   ├── favicon.png
+│   ├── index.html
+│   ├── manifest.json
+│   ├── _redirects
+│   └── robots.txt
+├── README.md
+├── src
+│   ├── App.css
+│   ├── App.js
+│   ├── assets
+│   │   ├── fonts
+│   │   │   └── Bestermind
+│   │   │       └── BestermindRegular.ttf
+│   │   ├── pdf
+│   │   │   └── resume.pdf
+│   │   ├── png
+│   │   │   └── placeholder.png
+│   │   └── svg
+│   │       ├── about
+│   │       │   ├── blueTheme-boy.svg
+│   │       │   ├── blueTheme-girl.svg
+│   │       │   ├── bwTheme-boy.svg
+│   │       │   ├── bwTheme-girl.svg
+│   │       │   ├── greenTheme-boy.svg
+│   │       │   ├── greenTheme-girl.svg
+│   │       │   ├── orangeTheme-boy.svg
+│   │       │   ├── orangeTheme-girl.svg
+│   │       │   ├── pinkTheme-boy.svg
+│   │       │   ├── pinkTheme-girl.svg
+│   │       │   ├── purpleTheme-boy.svg
+│   │       │   ├── purpleTheme-girl.svg
+│   │       │   ├── redTheme-boy.svg
+│   │       │   ├── redTheme-girl.svg
+│   │       │   ├── yellowTheme-boy.svg
+│   │       │   └── yellowTheme-girl.svg
+│   │       ├── contacts
+│   │       │   ├── contactsBlack.svg
+│   │       │   ├── contactsBlue.svg
+│   │       │   ├── contactsGreen.svg
+│   │       │   ├── contactsOrange.svg
+│   │       │   ├── contactsPink.svg
+│   │       │   ├── contactsPurple.svg
+│   │       │   ├── contactsRed.svg
+│   │       │   └── contactsYellow.svg
+│   │       ├── education
+│   │       │   ├── eduBlack.svg
+│   │       │   ├── eduBlue.svg
+│   │       │   ├── eduGreen.svg
+│   │       │   ├── eduImgBlack.svg
+│   │       │   ├── eduImgWhite.svg
+│   │       │   ├── eduOrange.svg
+│   │       │   ├── eduPink.svg
+│   │       │   ├── eduPurple.svg
+│   │       │   ├── eduRed.svg
+│   │       │   └── eduYellow.svg
+│   │       ├── experience
+│   │       │   ├── expBlack.svg
+│   │       │   ├── expBlue.svg
+│   │       │   ├── expGreen.svg
+│   │       │   ├── expImgBlack.svg
+│   │       │   ├── expImgWhite.svg
+│   │       │   ├── expOrange.svg
+│   │       │   ├── expPink.svg
+│   │       │   ├── expPurple.svg
+│   │       │   ├── expRed.svg
+│   │       │   └── expYellow.svg
+│   │       ├── projects
+│   │       │   ├── eight.svg
+│   │       │   ├── eleven.svg
+│   │       │   ├── five.svg
+│   │       │   ├── four.svg
+│   │       │   ├── nine.svg
+│   │       │   ├── one.svg
+│   │       │   ├── sample.svg
+│   │       │   ├── seven.svg
+│   │       │   ├── six.svg
+│   │       │   ├── ten.svg
+│   │       │   ├── thirteen.svg
+│   │       │   ├── three.svg
+│   │       │   ├── twelve.svg
+│   │       │   └── two.svg
+│   │       ├── skills
+│   │       │   ├── adobeaudition.svg
+│   │       │   ├── adobe-xd.svg
+│   │       │   ├── after-effects.svg
+│   │       │   ├── angular.svg
+│   │       │   ├── aws.svg
+│   │       │   ├── azure.svg
+│   │       │   ├── blender.svg
+│   │       │   ├── bootstrap.svg
+│   │       │   ├── bulma.svg
+│   │       │   ├── canva.svg
+│   │       │   ├── capacitorjs.svg
+│   │       │   ├── coffeescript.svg
+│   │       │   ├── cplusplus.svg
+│   │       │   ├── csharp.svg
+│   │       │   ├── css.svg
+│   │       │   ├── c.svg
+│   │       │   ├── dart.svg
+│   │       │   ├── deno.svg
+│   │       │   ├── django.svg
+│   │       │   ├── docker.svg
+│   │       │   ├── fastify.svg
+│   │       │   ├── figma.svg
+│   │       │   ├── firebase.svg
+│   │       │   ├── flutter.svg
+│   │       │   ├── gcp.svg
+│   │       │   ├── gimp.svg
+│   │       │   ├── git.svg
+│   │       │   ├── go.svg
+│   │       │   ├── graphql.svg
+│   │       │   ├── haxe.svg
+│   │       │   ├── html.svg
+│   │       │   ├── illustrator.svg
+│   │       │   ├── ionic.svg
+│   │       │   ├── javascript.svg
+│   │       │   ├── java.svg
+│   │       │   ├── julia.svg
+│   │       │   ├── kotlin.svg
+│   │       │   ├── lightroom.svg
+│   │       │   ├── markdown.svg
+│   │       │   ├── materialui.svg
+│   │       │   ├── matlab.svg
+│   │       │   ├── memsql.svg
+│   │       │   ├── microsoftoffice.svg
+│   │       │   ├── mongoDB.svg
+│   │       │   ├── mysql.svg
+│   │       │   ├── nextJS.svg
+│   │       │   ├── nginx.svg
+│   │       │   ├── numpy.svg
+│   │       │   ├── nuxtJS.svg
+│   │       │   ├── opencv.svg
+│   │       │   ├── photoshop.svg
+│   │       │   ├── php.svg
+│   │       │   ├── picsart.svg
+│   │       │   ├── postgresql.svg
+│   │       │   ├── premierepro.svg
+│   │       │   ├── python.svg
+│   │       │   ├── pytorch.svg
+│   │       │   ├── react.svg
+│   │       │   ├── ruby.svg
+│   │       │   ├── selenium.svg
+│   │       │   ├── sketch.svg
+│   │       │   ├── sqlite.svg
+│   │       │   ├── strapi.svg
+│   │       │   ├── svelte.svg
+│   │       │   ├── swift.svg
+│   │       │   ├── tailwind.svg
+│   │       │   ├── tensorflow.svg
+│   │       │   ├── typescript.svg
+│   │       │   ├── unity.svg
+│   │       │   ├── vitejs.svg
+│   │       │   ├── vue.svg
+│   │       │   ├── vuetifyjs.svg
+│   │       │   ├── webix.svg
+│   │       │   ├── wolframalpha.svg
+│   │       │   └── wordpress.svg
+│   │       ├── social
+│   │       │   ├── github.svg
+│   │       │   ├── linkedin.svg
+│   │       │   └── twitter.svg
+│   │       └── testimonials
+│   │           ├── boy1.svg
+│   │           ├── boy2.svg
+│   │           ├── boy3.svg
+│   │           ├── girl1.svg
+│   │           ├── girl2.svg
+│   │           └── girl3.svg
+│   ├── components
+│   │   ├── About
+│   │   │   ├── About.css
+│   │   │   └── About.js
+│   │   ├── Achievement
+│   │   │   ├── AchievementCard.js
+│   │   │   ├── Achievement.css
+│   │   │   └── Achievement.js
+│   │   ├── BackToTop
+│   │   │   ├── BackToTop.css
+│   │   │   └── BackToTop.js
+│   │   ├── Blog
+│   │   │   ├── Blog.css
+│   │   │   ├── Blog.js
+│   │   │   └── SingleBlog
+│   │   │       ├── SingleBlog.css
+│   │   │       └── SingleBlog.js
+│   │   ├── Contacts
+│   │   │   ├── Contacts.css
+│   │   │   └── Contacts.js
+│   │   ├── Education
+│   │   │   ├── EducationCard.js
+│   │   │   ├── Education.css
+│   │   │   └── Education.js
+│   │   ├── Experience
+│   │   │   ├── ExperienceCard.js
+│   │   │   ├── Experience.css
+│   │   │   └── Experience.js
+│   │   ├── Footer
+│   │   │   ├── Footer.css
+│   │   │   └── Footer.js
+│   │   ├── index.js
+│   │   ├── Landing
+│   │   │   ├── Landing.css
+│   │   │   └── Landing.js
+│   │   ├── Navbar
+│   │   │   ├── Navbar.css
+│   │   │   └── Navbar.js
+│   │   ├── Projects
+│   │   │   ├── Projects.css
+│   │   │   ├── Projects.js
+│   │   │   └── SingleProject
+│   │   │       ├── SingleProject.css
+│   │   │       └── SingleProject.js
+│   │   ├── Services
+│   │   │   ├── Services.css
+│   │   │   ├── Services.js
+│   │   │   └── SingleService
+│   │   │       ├── SingleService.css
+│   │   │       └── SingleService.js
+│   │   ├── Skills
+│   │   │   ├── Skills.css
+│   │   │   └── Skills.js
+│   │   └── Testimonials
+│   │       ├── Testimonials.css
+│   │       └── Testimonials.js
+│   ├── contexts
+│   │   └── ThemeContext.js
+│   ├── data
+│   │   ├── aboutData.js
+│   │   ├── achievementData.js
+│   │   ├── blogData.js
+│   │   ├── contactsData.js
+│   │   ├── educationData.js
+│   │   ├── experienceData.js
+│   │   ├── headerData.js
+│   │   ├── projectsData.js
+│   │   ├── servicesData.js
+│   │   ├── skillsData.js
+│   │   ├── socialsData.js
+│   │   ├── testimonialsData.js
+│   │   └── themeData.js
+│   ├── index.css
+│   ├── index.js
+│   ├── pages
+│   │   ├── Blog
+│   │   │   ├── BlogPage.css
+│   │   │   └── BlogPage.js
+│   │   ├── index.js
+│   │   ├── Main
+│   │   │   └── Main.js
+│   │   └── Project
+│   │       ├── ProjectPage.css
+│   │       └── ProjectPage.js
+│   ├── reportWebVitals.js
+│   ├── theme
+│   │   ├── images.js
+│   │   └── theme.js
+│   └── utils
+│       ├── ScrollToTop.js
+│       └── skillsImage.js
+└── yarn.lock
+
+42 directories, 225 files

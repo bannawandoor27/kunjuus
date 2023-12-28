@@ -1,0 +1,46 @@
+# Dependency directories
+node_modules/
+bower_components/
+
+# Local development
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+/dist
+/tmp
+/out
+
+# Misc
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# System files
+*.log
+*.sql
+*.sqlite
+
+# Package lock files (optional, some prefer to include these)
+# package-lock.json
+# yarn.lock
+
+# Generated files
+public/build/
+
+# Optional: Exclude specific assets or files
+# public/favicon.*
+# src/assets/pdf/
